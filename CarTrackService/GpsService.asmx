@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="GpsService.asmx.cs" Class="CarTrackService.GpsService" %>

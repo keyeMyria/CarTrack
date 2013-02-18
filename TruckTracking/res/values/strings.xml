@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="take_picture">拍照</string>
+     <string name="start_recording_video">开始录像</string>
+     <string name="stop_recording_video">停止录像</string>
+     <string name="refresh">刷新</string>
+     <string name="GOOGLE_MAPS_API_KEY">0Wd6DdQzApV5rLPT9cgqPu-TYu3efIIsLuAR08g</string>
+	 
+    <string name="add_waypoints">Add a waypoint to all the tracks</string>
+    <string name="app_name">MyTracksApiSample</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording</string>
+	
+	<string name="no">No</string> 
+  <string name="yes">Yes</string> 
+  <string name="ok">OK</string> 
+  <string name="error">Error</string> 
+  <string name="success">Success</string> 
+  
+  <string name="menu_map_view_my_location">我的位置</string>
+  <string name="menu_map_view_map_mode">地图模式</string>
+  <string name="menu_map_view_satellite_mode">卫星模式</string>
+
+	<string name="menu_record_track"
+    translation_description="In the menu, to start recording a track.
+
+      Screenshot: menu_record_track.png">
+    Record track
+  </string>
+  <string name="menu_settings"
+    translation_description="In the menu, to go to the settings page.
+
+      Screenshot: menu_record_track_more.png">
+    Settings
+  </string>
+  <string name="menu_stop_recording"
+    translation_description="In the menu, to stop recording a track.
+
+      Screenshot: menu_stop_recording.png">
+    Stop recording
+  </string>
+</resources>

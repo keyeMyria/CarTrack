@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_margin="0sp"
+              android:padding="0sp"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+   <!-- <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="@string/TruckIdLabel"
+                    android:textSize="20sp"/>
+        <TextView android:id="@+id/truckId"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:text="NB00101"
+                  android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="10dip"
+                  android:background="#000000">
+    </LinearLayout>-->
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="@string/WorkTitleLabel"
+                  android:textSize="20sp"/>
+        <TextView android:id="@+id/workTitle"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:text="进口箱带货"
+                  android:textSize="20sp"/>
+    </LinearLayout>
+    <!--<LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="10dip"
+                  android:background="#000000">
+    </LinearLayout>
+    <LinearLayout android:layout_height="15pt"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="@string/WorkActionsLabel"
+                  android:textSize="20sp"/>
+    </LinearLayout>-->
+    <ScrollView  android:layout_width="fill_parent"
+                 android:layout_height="0pt"
+                 android:layout_weight="1"
+                android:fillViewport="false">
+    <LinearLayout android:id="@+id/workActions"
+                  android:layout_height="0pt"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+        <include layout="@layout/work_action"/>
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_height="40sp"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <Button android:id="@+id/doWorkStatusRest"
+                android:layout_height="wrap_content"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkStatusRest" />
+        <Button android:id="@+id/doWorkStatusTrafficJam"
+                android:layout_height="wrap_content"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkStatusTrafficJam" />
+        <Button android:id="@+id/doWorkStatusTruckRepair"
+                android:layout_height="wrap_content"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkStatusTruckRepair" />
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="-5sp"
+                   android:layout_height="40sp"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <Button android:id="@+id/getWorkCurrent"
+                android:layout_height="fill_parent"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkCurrentLabel" />
+        <Button android:id="@+id/getWorkNext"
+                android:layout_height="fill_parent"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkNextLabel" />
+    </LinearLayout>
+    <!--<LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="5dip"
+                  android:background="#000000">
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal">
+        <Button android:id="@+id/doWorkAction1"
+                android:layout_height="15pt"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkAction1" />
+        <Button android:id="@+id/doWorkAction2"
+                android:layout_height="15pt"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkAction2" />
+        <Button android:id="@+id/doWorkAction3"
+                android:layout_height="15pt"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkAction3" />
+        <Button android:id="@+id/doWorkAction4"
+                android:layout_height="15pt"
+                android:layout_width="0pt"
+                android:layout_weight="1"
+                android:text="@string/WorkAction4" />
+    </LinearLayout>-->
+</LinearLayout>

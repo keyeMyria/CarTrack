@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Truck Special property -->
+  <PreferenceScreen android:title="我的服务">
+    <CheckBoxPreference
+        android:key="UseWebService"
+        android:title="是否使用我的服务"
+        android:summaryOn="实时位置"
+        android:summaryOff="不使用"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:key="CarName"
+        android:title="车牌号"
+        android:inputType="text"
+        android:defaultValue="ZJB-8092H"/>
+    <EditTextPreference
+         android:key="ServerUrl"
+         android:title="服务器地址"
+         android:inputType="textUri"
+         android:defaultValue="http://17haha8.gicp.net"/>
+      <com.google.android.apps.mytracks.IntegerListPreference
+        android:key="mapmode_key"
+        android:title="地图类型"
+        android:entries="@array/mapmode_options"
+        android:entryValues="@array/mapmode_values"
+        android:defaultValue="-1" />
+      <CheckBoxPreference
+        android:key="UseGoogleMapOffset"
+        android:title="是否使用Google地图偏移数据(测试)"
+        android:summaryOn="使用"
+        android:summaryOff="不使用"
+        android:defaultValue="false" />
+      <CheckBoxPreference
+        android:key="ShowCompassInMap"
+        android:title="显示指南针"
+        android:summaryOn="显示"
+        android:summaryOff="不显示"
+        android:defaultValue="false" />
+      <CheckBoxPreference
+        android:key="StartVideoRecording"
+        android:title="是否同时开启录像"
+        android:summaryOn="开启"
+        android:summaryOff="不开启"
+        android:defaultValue="false" />
+  </PreferenceScreen>
+</PreferenceScreen>

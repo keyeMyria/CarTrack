@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">实时监控手机终端</string>
+    <string name="settings">设置</string>
+    <string name="downloadapp">下载新程序</string>
+    <string name="dotask">动作</string>
+    <string name="sos">紧急</string>
+    <string name="send">发送</string>
+    <string name="startRecording">开始记录</string>
+    <string name="stopRecording">停止记录</string>
+    <string name="error">错误</string>
+    <string name="now_position">当前位置是</string>
+    <string name="send_track_point">已发送位置信息</string>
+    <string name="sending_track_point">正在发送位置信息...</string>
+    <string name="send_current_gpsloc">发送当前Gps位置信息</string>
+    <string name="please_enable_gps">请开启GPS</string>
+    <string name="quit">退出</string>
+    <string name="debug">调试</string>
+    <string name="no_work">当前无作业信息</string>
+    <string name="have_be_sent">已发送</string>
+    <string name="network_error">网络错误</string>
+    <string name="sending">发送中</string>
+
+    <string name="truckId">车载ID号</string>
+    <string name="serverAddress">服务器地址</string>
+    <string name="msgSendInterval">发送时间间隔（秒）</string>
+    <string name="enableTTS">是否使用语音功能</string>
+    <string name="enableGeocode">是否使用Geocode</string>
+    <string name="enableScreen">屏幕是否常亮</string>
+
+    <string name="TruckIdLabel">车载ID号：</string>
+    <string name="WorkTitleLabel">作业性质：</string>
+    <string name="WorkActionsLabel">作业进程：</string>
+    <string name="WorkDetailLabel">详情</string>
+    <string name="WorkStartLabel">开始</string>
+    <string name="WorkEndLabel">结束</string>
+    <string name="WorkStatusRest">途中休息</string>
+    <string name="WorkStatusTrafficJam">堵车</string>
+    <string name="WorkStatusTruckRepair">故障处理</string>
+    <string name="WorkCurrentLabel">当前作业</string>
+    <string name="WorkNextLabel">下一作业</string>
+    <string name="WorkAction1">作业</string>
+    <string name="WorkAction2">导航</string>
+    <string name="WorkAction3">通话</string>
+    <string name="WorkAction4">返回</string>
+    <string name="DownloadWork">下载作业信息</string>
+    <string name="Ok">确定</string>
+    <string name="input_xianghao">箱号输入</string>
+    <string name="input_fenhao">封号输入</string>
+</resources>

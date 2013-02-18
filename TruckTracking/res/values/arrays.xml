@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <!-- Map mode -->
+  <string-array name="mapmode_options">
+      <item>Google</item>
+      <item>Osmarender</item>
+      <item>Mapnik</item>
+      <item>RMap</item>
+      <!--<item>Cycle Map</item>
+      <item>Public transport</item>
+      <item>OSM base layer</item>
+      <item>Topographic</item>
+      <item>Hills</item>
+      <item>CloudMade (Standard tiles)</item>
+      <item>CloudMade (small tiles)</item>
+      <item>Mapquest</item>
+      <item>Bing</item>-->
+  </string-array>
+     <string-array name="mapmode_values">
+        <item>-1</item>
+      <item>0</item>
+      <item>1</item>
+         <item>10</item>
+     <!-- <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+      <item>8</item>
+      <item>9</item>
+      <item>10</item>-->
+  </string-array>
+
+</resources>

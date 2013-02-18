@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.nbzs.android.apps.trucktracking"
+      android:versionCode="2"
+      android:versionName="1.01">
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".Main2Activity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="SettingsActivity"
+                  android:label="@string/settings">
+        </activity>
+        <activity android:name=".MainActivity" android:label="@string/app_name" android:icon="@drawable/icon"
+                  android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.nbzs.android.apps.trucktracking.SendTrackPointService"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+                 android:enabled="true"
+                 android:exported="true"
+                 android:permission="com.google.android.apps.mytracks.WRITE_TRACK_DATA" />
+
+<!--        <receiver android:exported="true" android:name=".MyTracksReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.apps.mytracks.TRACK_STARTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.mytracks.TRACK_STOPPED" />
+            </intent-filter>
+        </receiver>-->
+    </application>
+
+    <uses-permission android:name="com.google.android.apps.mytracks.READ_TRACK_DATA" />
+    <uses-permission android:name="com.google.android.apps.mytracks.WRITE_TRACK_DATA" />
+    <uses-permission android:name="com.google.android.apps.mytracks.MYTRACKS_NOTIFICATIONS" />
+    <uses-permission android:name="com.google.android.apps.mytracks.TRACK_NOTIFICATIONS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+
+    <!-- Features required -->
+    <uses-feature android:name="android.hardware.location" android:required="true"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="true"/>
+
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <supports-screens
+            android:resizeable="true"
+            android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:anyDensity="true">
+    </supports-screens>
+</manifest> 

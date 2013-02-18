@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/sampleWorkAction"
+              android:layout_height="30sp"
+              android:layout_width="fill_parent"
+              android:orientation="horizontal">
+    <TextView android:id="@+id/workActionTitle"
+            android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:minWidth="80sp"
+              android:textSize = "14sp"
+              android:text="装货"/>
+    <Button android:id="@+id/workActionDetail"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_height="wrap_content"
+            android:layout_width="0pt"
+            android:layout_weight="1"
+            android:textSize = "10sp"
+            android:text="@string/WorkDetailLabel"/>
+    <Button android:id="@+id/workActionStart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_height="wrap_content"
+            android:layout_width="0pt"
+            android:layout_weight="1"
+            android:textSize = "10sp"
+            android:text="@string/WorkStartLabel"/>
+    <Button android:id="@+id/workActionEnd"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_height="wrap_content"
+            android:layout_width="0pt"
+            android:layout_weight="1"
+            android:textSize = "10sp"
+            android:text="@string/WorkEndLabel"/>
+</LinearLayout>

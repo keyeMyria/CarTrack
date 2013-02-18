@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="地址："/>
+        <TextView android:id="@+id/workActionDetailAddress"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="装货"/>
+        </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="电话："/>
+        <TextView android:id="@+id/workActionDetailTel"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="88888888"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="明细："/>
+        <TextView android:id="@+id/workActionDetailDetail"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="abcd"/>
+    </LinearLayout>
+</LinearLayout>

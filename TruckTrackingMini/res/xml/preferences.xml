@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="TruckName"
+        android:title="@string/truckId"
+        android:inputType="text"
+        android:defaultValue=""/>
+    <EditTextPreference
+         android:key="ServerUrl"
+         android:title="@string/serverAddress"
+         android:inputType="textUri"
+         android:defaultValue="http://17haha8.gicp.net"/>
+    <EditTextPreference
+            android:key="SendInterval"
+            android:title="@string/msgSendInterval"
+            android:inputType="text"
+            android:numeric="integer"
+            android:defaultValue="60"/>
+    <!--<CheckBoxPreference
+        android:key="EnableTts"
+        android:title="@string/enableTTS"
+        android:defaultValue="false"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="EnableGeocode"
+        android:title="@string/enableGeocode"
+        android:defaultValue="false"></CheckBoxPreference>
+    <CheckBoxPreference
+            android:key="EnableScreen"
+            android:title="@string/enableScreen"
+            android:defaultValue="false"></CheckBoxPreference>-->
+</PreferenceScreen>
